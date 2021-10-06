@@ -1,7 +1,7 @@
 ---
 title: 'Apache Spark: RDD operations with Scala'
 date: 2021-10-01
-permalink: /posts/2021/10/intro-rl/
+permalink: /posts/2021/10/apache_spark_rdd_ops_scala/
 tags:
   - apache-spark
   - scala
@@ -67,6 +67,9 @@ Let's see some examples of actions.
 
 - ```take(n)```: Returns the first ```n``` elements in the data set as an array.
 
+- ```takeOrdered(n)```: 
+- ```top(n)```: 
+- ```takeSample```:
 - ```saveAsTextFile(path)```: Write the elements of the RDD as a text file in the local file system, HDFS, or any another supported storage system.
 
 - ```foreach(function)```: Applies the ```function``` argument on each element in the RDD.
