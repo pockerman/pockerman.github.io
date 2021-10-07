@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Alexandros Giavaras | qubit-opus"
+title                    : "qubit-opus"
 title_separator          : "|"
-name                     : &name "Alexandros Giavaras"
+name                     : &name "qubit"
 description              : &description "personal description"
 url                      : https://pockerman.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Alexandros Giavaras"
   avatar           : "logo.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Computing is fun (mostly...)"
   location         : "Leicester"
   employer         : "University of Leicester, UK"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

@@ -11,7 +11,7 @@ tags:
 
 ## Overview
 
-TODO
+In this notebook, we go over Spark's resilient distributed dataset or RDD. The official programming guide can be found <a href="https://spark.apache.org/docs/latest/rdd-programming-guide.html">here</a>. RDDs form the backbone of Spark's data structures. The ```DataSet``` and ```DataFrame``` are based on RDD.
 
 ### Acknowledgements
 
@@ -47,7 +47,6 @@ In this section, I will review some common RDD transformations.
 
 - ```intersection(otherDataset)```: It returns a new data set that contains the intersection of elements from the source RDD and the argument RDD.
 
-- ```randomSplit```:
 
 ### Actions
 
@@ -58,23 +57,16 @@ Let's see some examples of actions.
 #### Actions examples
 
 - ```collect()```: Returns all the elements of the data set are returned as an array to the driver program.
-
 - ```count()```:  Returns the number of elements in the data set.
-
 - ```reduce(function)```: It returns a data set by aggregating the elements of the RDD it is applied on. The aggregation is done by using  the user provided ```function``` argument. The ```function``` should take two arguments and returns a single argument. Moreover it should be commutative and associative so that it can be operated in parallel. 
 
 - ```first()```: Returns the first element in the data set.
-
 - ```take(n)```: Returns the first ```n``` elements in the data set as an array.
-
-- ```takeOrdered(n)```: 
-- ```top(n)```: 
-- ```takeSample```:
+- ```takeOrdered(n, [ordering])```: Return the first ```n```  elements of the RDD using either their natural order or a custom comparator.
+- ```takeSample(withReplacement, num, [seed])```: Returns an array with a random sample of num elements of the dataset, with or without replacement, optionally pre-specifying a random number generator seed.
 - ```saveAsTextFile(path)```: Write the elements of the RDD as a text file in the local file system, HDFS, or any another supported storage system.
-
 - ```foreach(function)```: Applies the ```function``` argument on each element in the RDD.
-- ```countApprox(n)```: 
-
+ 
 ## References
 
 1. Subhashini Chellappan, Dharanitharan Ganesan, ```Practical Apache Spark. Using the Scala API```, Apress
