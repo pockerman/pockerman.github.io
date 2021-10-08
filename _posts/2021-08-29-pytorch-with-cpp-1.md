@@ -10,10 +10,6 @@ tags:
   - numerics
 ---
 
-
-Overview
-======
-
 <a href="https://pytorch.org/">PyTorch</a> is one of the well established libraries for modeling deep neural networks. The exposed Python API is the most commonly used one. However, the library also exposes bindings for C++. In this series of notebooks, I will try to demonstrate how to use the latter. I will be following to a large extent the documentation for the C++ frontend. 
 
 PyTorch with C++ 1
