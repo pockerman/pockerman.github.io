@@ -11,15 +11,18 @@ tags:
 ---
 
 
-## Overview
+Overview
+======
 
 <a href="https://pytorch.org/">PyTorch</a> is one of the well established libraries for modeling deep neural networks. The exposed Python API is the most commonly used one. However, the library also exposes bindings for C++. In this series of notebooks, I will try to demonstrate how to use the latter. I will be following to a large extent the documentation for the C++ frontend. 
 
-## PyTorch with C++ 1
+PyTorch with C++ 1
+======
 
 I will start by performing some basic manipulations with the ```Tensor``` class. Instances of this class are used around the library to perform numerics. Whilst at this I will also show how to link against the C++ bindings.
 
-### Install and link against ```libtorch```
+Install and link against ```libtorch```
+------
 
 To start with, download the binaries from here: https://pytorch.org/get-started/locally/. I use the pre-build binaries. Also make sure that you download the C++11 ABI.   
 
@@ -157,7 +160,8 @@ CUDA is not available on this machine
 
 The driver code above can be found in this <a href="https://github.com/pockerman/pyttoch_cpp_examples">github repository</a>.
 
-## References
+References
+======
 
 - <a href="https://pytorch.org/">PyTorch</a>
 - <a href="https://pytorch.org/tutorials/advanced/cpp_frontend.html">Using the PyTorch C++ Frontend</a>
