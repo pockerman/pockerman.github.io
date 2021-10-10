@@ -9,27 +9,29 @@ tags:
   - big-data
 ---
 
-## Overview
-
 In this notebook, we go over Spark's resilient distributed dataset or RDD. The official programming guide can be found <a href="https://spark.apache.org/docs/latest/rdd-programming-guide.html">here</a>. RDDs form the backbone of Spark's data structures. The ```DataSet``` and ```DataFrame``` are based on RDD.
 
-### Acknowledgements
+Acknowledgements
+======
 
 The content of this notebooks is to a large extent edited from [1].
 
-## RDD operations with Scala
+RDD operations with Scala
+======
 
 A Spark RDD provides two types of operations
 
 - Transformations
 - Actions
 
-### Transformations
+Transformations
+------
 
 A transformation operation creates a new RDD from an existing RDD. Moreover, we can apply a chain of
 transformations once the data is loaded into memory. Some common transformations are ```filter``` and ```map```
 
-#### Transformations examples
+Transformations examples
+------
 
 In this section, I will review some common RDD transformations. 
 
@@ -48,13 +50,15 @@ In this section, I will review some common RDD transformations.
 - ```intersection(otherDataset)```: It returns a new data set that contains the intersection of elements from the source RDD and the argument RDD.
 
 
-### Actions
+Actions
+------
 
 Spark transformations are lazy evaluated. What this means that a transformation is applied only when an action is called,
 Let's see some examples of actions.
 
 
-#### Actions examples
+Actions examples
+------
 
 - ```collect()```: Returns all the elements of the data set are returned as an array to the driver program.
 - ```count()```:  Returns the number of elements in the data set.
@@ -67,6 +71,7 @@ Let's see some examples of actions.
 - ```saveAsTextFile(path)```: Write the elements of the RDD as a text file in the local file system, HDFS, or any another supported storage system.
 - ```foreach(function)```: Applies the ```function``` argument on each element in the RDD.
  
-## References
+References
+======
 
 1. Subhashini Chellappan, Dharanitharan Ganesan, ```Practical Apache Spark. Using the Scala API```, Apress
