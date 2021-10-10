@@ -7,10 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hi and welcome to my blog. This is Alex. I am a self-taught, at least to a large extent, software engineer. I am really intersted in
+developing scientific applications (that do not involve drop down menus), mathematical modeling, machine learning and AI. I am also heavily interested in robotics,   <a href="https://github.com/pockerman/odisseus_raspberry_pi">here</a> is my non-working and still under-development-whenever-I-have-the-time, attempt. Admitedly, I still have  many thing  to learn.
+In this blog, I write for myself, things that I work, or worked, on and find difficult to grasp, or things that I read and want to make
+my understanding more tangible by...explaining them to myself. In any case, if you find useful any information in here, feel free to use it.
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+You can reach me, optional :), via <a href="https://www.linkedin.com/in/alexandros-giavaras-26233a5b/">Linkedin</a> or via <a href="https://github.com/pockerman">GitHub</a>.
 
-A data-driven personal website
+
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 

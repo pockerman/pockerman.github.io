@@ -1,6 +1,6 @@
 ---
 title: 'PyTorch with C++ 2'
-date: 2021-08-29
+date: 2021-10-08
 permalink: /posts/2021/10/pytorch_cpp_2/
 tags:
   - pytorch
@@ -10,11 +10,11 @@ tags:
   - numerics
 ---
 
-## Overview
-
 <a href="https://pytorch.org/">PyTorch</a> is one of the well established libraries for modeling deep neural networks. The exposed Python API is the most commonly used one. However, the library also exposes bindings for C++. In a <a href="#">previous post</a> I discussed how to link with the PyTorch library and explore how to use the ```torch::Tensor``` class. In this post, I continue exploring the PyTorch C++ frontend by creating a neural network.
 
-## PyTorch with C++ 2
+ 
+PyTorch with C++ 2
+======
 
 ```
 #include <torch/torch.h>
@@ -104,7 +104,8 @@ CUDA is not available on this machine
 ```
 
 
-## References
+References
+======
 
 - <a href="https://pytorch.org/">PyTorch</a>
 - <a href="https://pytorch.org/tutorials/advanced/cpp_frontend.html">Using the PyTorch C++ Frontend</a>

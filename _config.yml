@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Alexandros Giavaras"
+  name             : "qubit-opus"
   avatar           : "logo.jpg"
   bio              : "Computing is fun (mostly...)"
   location         : "Leicester"
@@ -239,6 +239,14 @@ defaults:
   - scope:
       path: ""
       type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _talks
+  - scope:
+      path: ""
+      type: history
     values:
       layout: talk
       author_profile: true

@@ -7,9 +7,15 @@ tags:
   - c++
 ---
 
-## Overview
+The ```auto``` keyword changed its semantics starting from the C++11 standard. In this notebook, we will review its new semantics and examine its new flavors.  
 
-The ```auto``` keyword changed its semantics starting from the C++11 standard. From C++11 onwards, we have the following different flavors 
+
+
+Using the ```auto``` keyword
+======
+
+The ```auto``` keyword changed its semantics starting from the C++11 standard. From C++11 onwards, the semantic of the keyword is 
+automatic type deduction. In fact, from C++11 onwards, we have the following different flavors 
 of the keyword [1]:
 
 - ```auto```
@@ -17,11 +23,11 @@ of the keyword [1]:
 - ```auto&```
 - ```auto&&```
 
+
 Furthermore, we have ```decltype(auto)```. This post is a short guide on how to use ```auto``` and its various flavors.
 
-## Using the ```auto``` keyword
-The ```auto``` keyword changed its semantics starting from the C++11 standard. From C++11 onwards, the semantic of the keyword is 
-automatic type deduction. This means that we can write code like the following:
+
+The first thing to note about ```auto``` is that it ise used for automatic type deduction. This means that we can write code like the following:
 
 ```
 ...
@@ -65,7 +71,8 @@ The latter API is cleaner and simpler.The type returned is deduced by the compil
 ---
 **Remark**
 
-Althgough to a large extent using ```auto``` simplifies our code, overusing it can have the opposite resutl.
+Althgough to a large extent using ```auto``` simplifies our code, overusing it can have the opposite result.
+
 ----
 
 One other advantage of using ```auto``` is that we cannot leave the variable uninitialized. That is the following fails to compile
@@ -79,6 +86,7 @@ This is reasonable as the compiler uses the right hand side value to deduce the 
 to deduce from. Thus, unitialized variables are not allowed when using ```auto``` and the good news are that the compilers let us know the exact line number in our code that this
 occurs. 
 
-## References
+References
+======
 
 1. Bjorn Andrist, Viktor Sehr, ```C++ High Performance, 2nd Edition```, Packt Publishing
