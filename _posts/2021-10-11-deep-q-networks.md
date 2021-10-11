@@ -44,11 +44,11 @@ DQN algorithm
 2. Set the policy $\pi$ to be an $\epsilon-$greedy with respect to $q_{\theta}$
 3. Until some condition is met do
 
-    3.1 Sample an action from the policy
+    3.1 Sample an action $\alpha$ from the policy $\pi$
     
-    3.2 Given the state $s$ and the policy $\pi$, take an action $\alpha$ and observe $r$ and $s_{NEW}$. Add the transition $(s, \alpha, r, s_{ NEW})$ in the replay buffer. If $|D|>M$ eject the oldest transition from the buffer
+    3.2 Take the action $\alpha$ and observe $r$ and $s_{NEW}$. Add the transition $(s, \alpha, r, s_{ NEW})$ in the replay buffer. If $|D|>M$ eject the oldest transition from the buffer
     
-    3.3 if $|D| = N$ unfiromly sample a random minibatch of $N$ transitions from $D$ else return to step 2 above.
+    3.3 If the experience buffer has reached the indicated capacity, unfiromly sample a random minibatch of $N$ transitions from $D$ else return to 3.1 above.
     
     3.4 Obtain the target values $y_i = r_i + \gamma max_{\alpha_i} q_{\theta_{TN}}(s_i, \alpha_i)$. 
     
