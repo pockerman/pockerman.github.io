@@ -10,7 +10,7 @@ tags:
 This post introduces gradient boosting. A nice introduction can be found at <a href="https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/">A Gentle Introduction to the Gradient Boosting Algorithm for Machine Learning</a>.
 
 
-Introduction to Gradient boosting
+Introduction to gradient boosting
 ======
 
 According to Wikipedia, _gradient boosting is a machine learning technique for regression, classification and other tasks, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees.[...]  It builds the model in a stage-wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function._ [1]. 
