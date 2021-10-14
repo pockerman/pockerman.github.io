@@ -101,21 +101,21 @@ for r in [5, 20, 100]:
 
 
 
-![png](../images/output_15_1.png)
+![png](/images/output_15_1.png)
 
 
     Working with r 20
 
 
 
-![png](../images/output_15_3.png)
+![png](/images/output_15_3.png)
 
 
     Working with r 100
 
 
 
-![png](../images/output_15_5.png)
+![png](/images/output_15_5.png)
 
 
 
@@ -127,7 +127,7 @@ plt.show()
 ```
 
 
-![png](../images/output_16_0.png)
+![png](/images/output_16_0.png)
 
 
 
@@ -138,7 +138,7 @@ plt.show()
 ```
 
 
-![png](../images/output_17_0.png)
+![png](/images/output_17_0.png)
 
 
 References
