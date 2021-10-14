@@ -1,7 +1,7 @@
 ---
 title: 'Machine Learning Notes: Introduction to hidden Markov models'
-date: 2021-10-03
-permalink: /posts/2021/10/ml_intro_hmml/
+date: 2020-05-21
+permalink: /posts/2020/05/ml_intro_hmml/
 tags:
   - machine-learning
   - hidden-markov-model
@@ -87,15 +87,15 @@ For a state set with $N$ states, $\mathbf{A}$ is $N\times N$. Likewise for a set
 
 Typically, when dealing with an HMM we are intersted in the following three problems [1]
 
-1. Given an HMM i.e. $\lambda$ evaluate the probability of a given observation sequence:
+- Given an HMM i.e. $\lambda$ evaluate the probability of a given observation sequence:
 
 $$P(O| \lambda)$$
 
-2. Given an HMM and an observation sequence $O$ we want to find the state sequence $Q$ with the highest probability of producing $O$ i.e we want to find $Q$ such that 
+- Given an HMM and an observation sequence $O$ we want to find the state sequence $Q$ with the highest probability of producing $O$ i.e we want to find $Q$ such that 
 
 $$P(Q|O, \lambda) ~~ \text{is maximum}$$
 
-3. Given a training set of observation sequences $\mathbf{X}$ we want to learn the HMM that maximizes the probability of generating $\mathbf{X}$ that is we want to find $\lambda$ so that 
+- Given a training set of observation sequences $\mathbf{X}$ we want to learn the HMM that maximizes the probability of generating $\mathbf{X}$ that is we want to find $\lambda$ so that 
 
 $$P(\mathbf{X}|\lambda)~~ \text{is maximum}$$
 
