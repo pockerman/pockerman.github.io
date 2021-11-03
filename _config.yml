@@ -225,7 +225,7 @@ defaults:
       path: ""
       type: big-data
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
