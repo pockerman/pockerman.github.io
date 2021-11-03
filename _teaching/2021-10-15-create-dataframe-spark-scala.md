@@ -10,9 +10,8 @@ tags:
   - data-analysis
 ---
 
-## Overview
-
 In this post, we will review how to create a ```DataFrame``` in Spark using the Scala API.
+
 
 ##  Create a  DataFrame with Scala
 
