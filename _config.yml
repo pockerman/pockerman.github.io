@@ -220,10 +220,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _history
+  # _big_data
   - scope:
       path: ""
-      type: history
+      type: big-data
     values:
       layout: talk
       author_profile: true
