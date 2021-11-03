@@ -6,7 +6,13 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "History Posts"
+  - title: "Machine learning"
+    url: /history/
+    
+  - title: "Reinforcement learning"
+    url: /history/
+    
+  - title: "Big data & Data Engineering"
     url: /history/
     
   - title: "CV"

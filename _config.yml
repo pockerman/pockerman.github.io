@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "qubit-computing"
   avatar           : "logo.jpg"
-  bio              : "Computing is fun (mostly...)"
+  bio              : "Computing is fun (most of the times...)"
   location         : "Leicester"
   employer         : "University of Leicester, UK"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -186,7 +186,7 @@ collections:
   talks:
     output: false
     permalink: /:collection/:path/
-  history:
+  big-data:
     output: true
     permalink: /:collection/:path/
 
