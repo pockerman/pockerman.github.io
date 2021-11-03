@@ -13,6 +13,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.big-data %}
+{% for post in site.bigdata %}
   {% include archive-single.html %}
 {% endfor %}
