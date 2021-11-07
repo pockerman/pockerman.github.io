@@ -3,21 +3,12 @@ layout: archive
 title: "Big Data & Data Engineering"
 permalink: /big-data/
 author_profile: true
+redirect_from:
+  - /wordpress/blog-posts/
 ---
 
 {% include base_path %}
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.teaching %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.teaching %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
