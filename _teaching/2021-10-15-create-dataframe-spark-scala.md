@@ -2,6 +2,7 @@
 title: 'Apache Spark. Create a  DataFrame with Scala'
 date: 2021-10-15
 permalink: /teaching/2021/10/spark_df/
+date: 2021-10-15
 tags:
   - spark
   - scala
